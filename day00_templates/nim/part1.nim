@@ -1,0 +1,27 @@
+#!/usr/bin/env nimbang
+#off:nimbang-args c -d:release
+#nimbang-settings hideDebugInfo
+
+import std/strutils # strip, split, join
+import std/strformat # &"Hello {name}!"
+import std/sequtils # toSeq(iter), map, filter
+#import std/sugar       # =>, collect:
+#import std/math        # sum
+#import std/algorithm   # sorted(seq), reversed(seq)
+#import std/tables
+#import std/sets
+
+import pykot
+# import pykot/[console, converters, euler, fs, functional,
+#               pretty, process, jrandom, strings, jsystem, types, web]
+
+proc main() =
+  let fname = "example.txt"
+  # let fname = "input.txt"
+  let lines = readFile(fname).strip.splitLines
+  echo lines
+
+# ############################################################################
+
+when isMainModule:
+  main()
