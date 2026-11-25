@@ -13,7 +13,8 @@ Targeted language: [Nim](https://nim-lang.org/). Fallback language: Python.
 
 ## Links
 
-- [Advent of Code](https://adventofcode.com/)
+- [My previous AoC solutions](https://github.com/jabbalaci/AdventOfCode-Meta)
+- [Advent of Code](https://adventofcode.com/) official page
 - The [Nim](https://nim-lang.org/) programming language
 - forum posts
   - [Advent of Nim 2025](https://forum.nim-lang.org/t/13522), announcement of last year
